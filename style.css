@@ -120,7 +120,7 @@ li a:hover{
     text-align: center;
   }
   
-  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+  .parrafo{
       color: grey;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 40px;
@@ -137,17 +137,6 @@ li a:hover{
     
     
 }
-/*uso grid para la cuadricula de imagenes*/
-.auto,.moto,.casa,.familia,.ahorro,.vida {
-   display: grid;
-   grid-template-columns: 3;
-   grid-row: 2;
-   margin:10px;
-   width: 350px;
-   height: 350px;
-   border-radius: 30px;
-
- }
 
  /*Aplico transformacion a las fotos*/
 

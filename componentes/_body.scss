@@ -1,0 +1,31 @@
+@import "../base/mapas";
+@import "../base/extend";
+@import "../base/mixin";
+
+
+
+.parrafo{
+    color:map-get($parrafo);
+    font-family:map-get($parrafo);
+    font-size: map-get($parrafo );
+    text-align:map-get($parrafo) ;
+    text-indent:map-get($parrafo) ;
+
+}; 
+
+.titulo{
+    color:map-get($titulo );
+    font-family: map-get($titulo );
+    
+}
+
+.fotologo{
+    @extend %foto-logo
+}
+
+.foto:hover{
+ @include prefijo (scale(2));
+ @include prefijo (all 10s linear);
+ @include prefijo (hidden)
+}
+

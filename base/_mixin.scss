@@ -1,0 +1,7 @@
+/*MiXIN*/
+
+@mixin prefijos ($valor){
+    transform: $valor;
+    transition: $valor;
+    overflow:$valor;
+} 
