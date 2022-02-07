@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+/*Medias quries*/
+/* Moble*/
+     
+@media only screen and (max-width: 480px) {
+   
+    
+
+   }
+/*tablet*/
+   @media only screen and (min-width:481px) and (max-width:768px) {
+   
+   }
+/*dekstops*/
+   @media only screen and (min-width:769px) and (max-width: 1280px) {
+  
+
+   }
+
+    
+
+/*Navegador horizontal a la izquierda*/
+ 
+li{
+    display:inline-block;
+   
+}
+/*propiedad flexbox y colores del navegador*/
+.navegador{
+    display: flex  ;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #6b95ff;
+    color:#f3f3f3;
+    padding: 5px;
+    
+    
+}
+
+.nav{
+   background-color:#6b95ff;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+
+    }
+
+li a:hover{
+    background-color: #375a9f;
+    
+}
+/*efecto parallax del header*/
+.imagen-header{
+    background-image: url("multimedia/oficina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.img-conteiner{
+    display: flex;
+   
+}
+
+.fotos-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.titulo,.servicios,.nosotros,.siniestros{
+    color:#005d9d ;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+    font-size: 40px;
+ }
+ .seguro{
+    color:#005d9d ;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+    font-size: 30px;
+
+ }
+     .h2,.h3{
+        color:#005d9d ;
+        font-family: Arial, Helvetica, sans-serif ;
+        text-align: center;
+        font-size: 30px;
+
+     }   
+     .nosotros{
+        line-height: 50px;
+     }
+
+     .siniestro{
+        line-height: 50px;
+     }
+
+     .contacto{
+        line-height: 50px;
+     }
+
+  .subtitulo {
+      color: grey ;
+      font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .parrafo1,.parrafo2,.parrafo3,.parrafo4{
+      color: grey;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      text-align: center;
+      text-indent: 200px;
+  }
+
+.fotologo {
+    
+    width: 250px;
+    height: 250px;
+    padding:30px ;
+    margin:30px;
+    
+    
+}
+/*uso grid para la cuadricula de imagenes*/
+.auto,.moto,.casa,.familia,.ahorro,.vida {
+   display: grid;
+   grid-template-columns: 3;
+   grid-row: 2;
+   margin:10px;
+   width: 350px;
+   height: 350px;
+   border-radius: 30px;
+
+ }
+
+ /*Aplico transformacion a las fotos*/
+
+.foto:hover{
+    transform: scale(2);
+    transition: all 10s linear;
+    overflow: hidden;
+
+    
+}
+
+.image  a {
+        display: none;
+    }
+    
+    .image  a:hover {
+        display: block;
+    
+    }
+
+    .nosotros1{
+        padding: 200px;
+    }
+
+    .siniestro1{
+       
+        padding: 100px;
+    }
+
+  
+
+    
+
+
+h2,h3,p {
+    text-align-last: center;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color:#6b95ff;
+}
